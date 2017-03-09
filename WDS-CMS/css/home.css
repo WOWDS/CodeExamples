@@ -1,0 +1,55 @@
+/* -----------------------------------------------
+
+WOW Design Solutions
+Author: Glynn Williams
+Created: June 2015
+
+----------------------------- */
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/
+/* ++++++++++++++++++++++++++++ FOUNDATION OVERRIDES ++++++++++++++++++++++++++++ */
+
+/*---------------------------------------------------------- TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {margin:0.25rem 0 1rem 0}
+h3 {color:#000}
+/* ---------------------------------------------------------- mobile styles (max-width 640px) */
+@media only screen and (max-width: 40em) {
+hr.HRD {margin-top:1rem}
+}
+
+/* ---------------------------------------------------------- Smartphones (landscape) ----------- */
+@media only screen and (min-width: 20.0625em) and (max-width: 47.9375em) {
+
+}
+
+/* ---------------------------------------------------------- Smartphones (portrait) ----------- */
+@media only screen and (max-width: 20em) {
+
+}
+
+/* ---------------------------------------------------------- iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) {
+	
+}
+
+/* ---------------------------------------------------------- iPads (landscape) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) and (orientation: landscape) {
+	
+}
+
+/* ---------------------------------------------------------- iPads (portrait) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) and (orientation: portrait) {
+	
+}
+
+/*---------------------------------------------------------- medium screens (641px) */
+@media only screen and (min-width: 40.063em) {
+/* ---------------------------------------------------------- add navigation */
+a.AddNav {margin-top:0.625rem;display:inline-block}
+}
+
+/*---------------------------------------------------------- large screens (min-width 1025px and max-width 1440px) */
+@media only screen and (min-width: 62em) {
+}

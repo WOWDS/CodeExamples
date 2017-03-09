@@ -1,0 +1,61 @@
+ /* -----------------------------------------------
+
+WOW Design Solutions
+Author: Glynn Williams
+Created: June 2015
+
+----------------------------- */
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/
+
+/*---------------------------------------------------------- TYPOGRAPHY */
+body, html, h1, h2, h3, h4, h5, h6, p {font-style:normal;margin-bottom:0.75rem}
+body, html, p {color:#253640}
+body {margin-bottom:0}
+h1, h2, h3, h4, h5, h6 {text-rendering:optimizeLegibility;margin:0.25rem 0 1rem;line-height:110%;font-weight:700;letter-spacing:0.025em}
+h1.nom, h2.nom, h3.nom, h4.nom, h5.nom, h6.nom {margin:0;line-height:120%}
+.ImgRt {float:right;margin:0.5rem 0 0.5rem 1rem}
+.ImgLt {float:left;margin:0.5rem 1rem 0.5rem 0}
+h1 {font-size:1.75rem;color:#6CC325;line-height:100%;letter-spacing:0.015em}
+h2 {font-size:1.5rem;color:#253640}
+h3 {font-size:1.375rem;color:#079BDA}
+h4 {font-size:1.25rem;color:#B2478E}
+h4.h4lm {margin-left:0.9375rem;line-height:2.25rem}
+h5 {font-size:1.125rem;color:#000}
+h6 {color:#253640}
+p, li {font-size:100%}
+p, ul, ol {line-height:140%}
+p.smp {font-size:85%}
+a {color:#253640;text-decoration:none;cursor:pointer;font-weight:600}
+a:hover, a:hover span.wdsb {color:#6CC325;text-decoration:none}
+table {width:100%}
+blockquote, blockquote p {color:#415360}
+blockquote {margin:0px 0px 0.5rem 0.0625rem;padding:0.5625rem 1.25rem 0.5625rem 1.5rem}
+blockquote p {margin-bottom:0.25rem}
+img {border:none;border-collapse:collapse}
+hr {height:1px;margin:0.75rem 0;padding:0;border:none;border-bottom:1px dotted #6B8B9E;clear:both;display:block}
+hr.HRD {margin:1.25rem 0;border-bottom:2px solid #000}
+hr.HRS {margin:1.5rem 0;border-bottom:2px solid #253640}
+hr.HRA {margin:0.5rem 0 1rem;border-bottom:1px dotted #6B8B9E}
+hr.HRSL {border-bottom:1px solid #E2ECF0}
+img.left {float:left;margin:0 1rem 1rem 0}
+img.right {float:right;margin:0 0 1rem 1rem}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, p small, small, label small {font-size:75%;color:inherit;text-transform:none;line-height:100%}
+.wdsb, .wdsb-bld {color:#079BDA}					/* WDS Blue */
+.wdslb, .wdslb-bld {color:#83CDEC}				/* Light Blue */
+.wdsp, .wdsp-bld {color:#B2478E}					/* WDS Pink */
+.wdsdg, .wdsdg-bld {color:#253640}				/* Dark Grey */
+.wdsg, .wdsg-bld {color:#6B8B9E}					/* WDS Grey */
+.wdslg, .wdslg-bld {color:#A2C2D0}				/* Light Grey */
+.wdsvlg, .wdsvlg-bld {color:#E2ECF0}			/* Very Light Grey */
+.wdsgn, .wdsgn-bld {color:#6CC325}			/* WDS Green */
+.wdswht, .wdswht-bld {color:#FEFEFE}			/* White */
+.wdsBlk, .wdsBlk-bld {color:#000}					/* Black */
+.wds-bld, .wdsb-bld, .wdslb-bld, .wdsp-bld, .wdsdg-bld, .wdsg-bld, .wdslg-bld, .wdsvlg-bld, .wdsgn-bld, .wdswht-bld, .wdsBlk-bld {font-weight:900}
+.larger {font-size:115%}
+.smaller {font-size:90%}
+h1 .smaller {font-size:80%}
+.clearfixBIG {margin:1rem 0;height:1px;clear:both}
+.clearfix {margin:1rem 0 0;height:1px;clear:both}

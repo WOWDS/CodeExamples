@@ -1,0 +1,366 @@
+ /* -----------------------------------------------
+
+WOW Design Solutions
+Author: Glynn Williams
+Created: June 2015
+
+----------------------------- */
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/
+
+/* ++++++++++++++++++++++++++++ FOUNDATION OVERRIDES ++++++++++++++++++++++++++++ */
+/*--------------------------------------------------- add radius */
+fieldset, [type="color"], [type="date"], [type="datetime-local"], [type="datetime"], [type="email"], [type="month"], [type="number"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="time"], [type="url"], [type="week"], textarea, select, button, .button, .switch-paddle, .tooltip, .mce-panel, .accordion, .accordion-title, .accordion-content, #sortable li, table, form#BanForm img, .tm-tag, .callout, .alert, .reveal, h5.az-title {-webkit-border-radius:0.25rem;-moz-border-radius:0.25rem;border-radius:0.25rem}
+/*--------------------------------------------------- navigation */
+.top-bar .dropdown li.title h5, .top-bar .dropdown li.parent-link, .top-bar .dropdown li.title h5 a {font-size:0.875rem;color:#6CC325;margin-left:0}
+.top-bar .dropdown li.title h5 a:hover {color:#079BDA}
+.top-bar .name a:hover {color:#6CC325}
+.sticky {position:absolute;z-index:1000}
+.is-dropdown-submenu .is-dropdown-submenu {margin-top:0}
+/*--------------------------------------------------- buttons */
+.button {background:#079BDA;padding:0.75rem 1rem 0.6875rem;margin:0 0 0.5rem;text-transform:uppercase;font-weight:600;font-size:1rem}
+.button:hover, .button:focus {background:#00618A}
+.button.success {background:#6CC325;color:#FEFEFE}
+.button.success:hover { background:#3A8001}
+.button.alert {background-color:#B2478E}
+.button.alert:hover, .button.alert:focus {background-color:#8E3972}
+form .button, p.AddB .button {margin:0 0.9375rem 0.5rem 0}
+table .button {padding:0.125rem 0.25rem 0.0625rem;margin:0 0 0 0.75rem}
+form button.fullw, button.fullw, form .button.fullw, .button.fullw {width:100%}
+.button.greenb.fullw {background:#6CC325;cursor:default}
+.close-button {right:0.5rem}
+.a-z.button {padding:0.4375rem 0.625rem 0.4375rem;margin:0 0.5rem 0 0;font-size:0.875rem}
+h5.az-title {margin:1.25rem 0;line-height:100%;font-weight:700;letter-spacing:0.025em;font-size:1.25rem;color:#FFF;background:#6CC325;width:100%;text-align:center;padding:0.4375rem 0.75rem 0.4375rem}
+/*--------------------------------------------------- forms */
+form .row .row {margin:0px -0.9375rem}
+.row.banrows {margin-bottom:1rem}
+.bgrey {background:#A2C2D0}
+.bgrey:hover, .bgrey:focus {background:#6B8B9E}
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {background:#E2ECF0;border-color:#83CDEC;outline:medium none;font-weight:400}
+form fieldset button, form fieldset .button {margin:0 0 0.5rem}
+textarea {min-height:5.5rem}
+.alert-box p {padding:0;margin:0;color:#FEFEFE;font-size:110%}
+.panel button, .panel .button {margin:0 0.5rem 0 0}
+label {font-size:1rem;line-height:2rem;cursor:default;color:#253640;font-weight:600}
+label input {font-weight:400}
+#LogoFS label, #LogoFS p {line-height:120%}
+#LogoFS label {margin-bottom:1rem}
+fieldset {border:1px solid #E2ECF0;margin:0.75rem 0;padding:0.5rem 0 0.625rem}
+fieldset legend {font-size:1.25rem;font-weight:700;color:#B2478E;margin:0 0 0 0.375rem}
+fieldset div {margin-top:0;margin-bottom:0}
+fieldset  div p {padding:0;margin:0}
+img.ImgThb {max-height:18.25rem;margin:0.5rem 0}
+/*--------------------------------------------------- tables */
+table thead tr th, table thead tr td, table tbody tr td {color:#253640;padding:0.5rem 0.9375rem;font-size:0.875rem}
+table tbody, table tfoot, table thead {border:1px solid #E2ECF0;background:#FEFEFE}
+table thead {background:#A2C2D0;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-top-left-radius:4px;border-top-right-radius:4px}
+table thead tr th {color:#000;font-weight:900}
+table tbody tr:nth-child(2n) {background:#E2ECF0}
+.col1 {width:44%}
+.col2 {width:15%}
+.col3 {width:21%}
+.col4 {width:10%}
+.col5 {width:10%}
+.smcell {padding-left:2rem}
+/*--------------------------------------------------- tool tips */
+.has-tip, .has-tip:hover {border-bottom:none;color:#253640}
+.has-tip:hover {color:#079BDA}
+.tooltip {background:#253640;color:#FEFEFE;font-size:0.875rem;padding:0.75rem;position:absolute;z-index:1006;top:calc(100% + 0.6495rem);max-width:18.75rem !important}
+.tooltip::before, .tooltip.top::before, .tooltip.left::before, .tooltip.right::before {content:'';display:block;width:0;height:0;border:inset 0.75rem;position:absolute}
+.tooltip::before, .tooltip.left::before, .tooltip.right::before {-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}
+.tooltip.left::before, .tooltip.right::before {bottom:auto;top:50%}
+.tooltip::before {border-color:transparent transparent #253640;border-bottom-style:solid;border-top-width:0;bottom:100%;left:50%}
+.tooltip.top::before {border-color:#253640 transparent transparent;border-top-style:solid;border-bottom-width:0;top:100%;bottom:auto}
+.tooltip.left::before {border-color:transparent transparent transparent #253640;border-left-style:solid;border-right-width:0;left:100%}
+.tooltip.right::before {border-color:transparent #253640 transparent transparent;border-right-style:solid;border-left-width:0;left:auto;right:100%}
+/*--------------------------------------------------- switches */
+.switch {margin-bottom:0;font-weight:900;font-size:0.9375rem;position:inherit}
+.switch.tiny, fieldset div.switch.tiny {margin:0.25rem 0 0}
+.switch, fieldset div.switch {display:inline-block;top:0.125rem}
+.switch-paddle {background:#A2C2D0}
+.switch input:checked + label {background:#B2478E}
+.switch.bl input:checked + label {background:#079BDA}
+.switch-active {left:20%}
+.switch-inactive {right:18%}
+h5.h5fltl {margin-bottom:0.6375rem;font-size:110%;color:#079BDA}
+p.published {font-size:90%}
+input.v-success {border-color:#5B6A7A;box-shadow:0px 1px 2px #5B6A7A inset;color:#5B6A7A;background-image:url("../img/grey-tick.png");background-repeat:no-repeat;background-position:97% 50%}
+input.v-error {border-color:#B2478E;box-shadow:0px 1px 2px #B2478E inset;color:#B2478E;background-image:url("../img/pink-cross.png");background-repeat:no-repeat;background-position:97% 50%}
+/*--------------------------------------------------- call out boxes */
+.callout {margin-top:1rem;padding-bottom:0.125rem}
+.callout .button {margin:0 0 0 2rem}
+.callout > :last-child {margin-bottom:0.75rem}
+.callout a:not(.button) {text-decoration:underline}
+/*--------------------------------------------------- reveals */
+.reveal-overlay {z-index:1005}
+.reveal {z-index:1006; top:50%}
+/*--------------------------------------------------- accordion */
+.accordion {border:none}
+.accordion-title, .accordion-content {border:none}
+.accordion, .accordion-title, .accordion-title:link, .accordion-title:focus, .accordion-title:active {background:#CAE4EF}
+.accordion-title {color:#079BDA;padding:0.875rem 1rem 0.8125rem;text-transform: uppercase;font-weight:600;font-size:1rem}
+.accordion-title:focus {border-bottom:none}
+.accordion-title:hover {background:#D3E6C3}
+.accordion-title::before {margin-top:-0.5625rem}
+.accordion-content, .accordion-content p, .accordion-content li {font-size:0.875rem}
+.accordion-content {border:1px solid #CAE4EF;padding-bottom:0.25rem}
+.accordion-content a {text-decoration:underline}
+.accordion-content ul {margin-bottom:0.75rem}
+.accordion-title:hover > .accordion-content {border:1px solid #D3E6C3}
+/*---------------------------------------------------------- header */
+.HNav {display:none;visibility:hidden;position:absolute;left:-1000rem}
+#cms-hd {font-size:200%;color:#079BDA;line-height:100%;letter-spacing:0.035em;margin:2rem 0}
+/* ---------------------------------------------------------- UI toTop - http://www.mattvarone.com/web-design/uitotop-jquery-plugin/ */
+#toTop {display:none;text-decoration:none;position:fixed;bottom:3.375rem;right:0;overflow:hidden;width:3.375rem;height:2.75rem;border:none;text-indent:100%;background:url(../img/ui.totop.png) no-repeat left top}
+#toTopHover {background:url(../img/ui.totop.png) no-repeat left -2.75rem;width:3.375rem;height:2.75rem;display:block;overflow:hidden;float:left;opacity:0;-moz-opacity:0;filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus {outline:none}
+/* ++++++++++++++++++++++++++++ TINYMCE ++++++++++++++++++++++++++++ */
+.mce-tinymce.mce-container.mce-panel {margin-bottom:0.5rem}
+/* ++++++++++++++++++++++++++++ NAVIGATION ++++++++++++++++++++++++++++ */
+#main-menu, #top-bar-wrap, .top-bar, .title-bar, .top-bar ul, .top-bar ul li, .top-bar ul li > a, .is-dropdown-submenu {background:#253640}
+#top-bar-wrap, #main-menu {height:2.8125rem;width:100%}
+.top-bar {max-width:75rem;margin:0 auto;padding:0;height:2.8125rem;line-height:2.8125rem}
+.top-bar ul li > a {color:#FEFEFE;line-height:2.8125rem;padding:0 0.9375rem;display:block;font-size:0.875rem;font-weight:normal;text-transform:none;width:100%}
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {border:6px inset;border-color:#A2C2D0 transparent transparent}
+.dropdown.menu > li.is-dropdown-submenu-parent > a:hover::after {border:6px inset;border-color:#FEFEFE transparent transparent}
+.top-bar-left ul li > a:hover, .top-bar-left ul li > a:focus {color:#6CC325} 
+.top-bar-right ul li > a:hover, .top-bar-right ul li > a:focus {background:#079BDA}
+.dropdown.menu.vertical > li.opens-left > a::after {border:inset 6px;border-color:transparent #FEFEFE transparent transparent}
+.dropdown.menu.vertical > li.opens-right > a::after {border:inset 6px;border-color:transparent transparent transparent #FEFEFE}
+.is-dropdown-submenu {border:none;min-width:10rem}
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/
+
+/* ---------------------------------------------------------- main tags */
+html {overflow-y:scroll}
+/* ---------------------------------------------------------- wrap */
+#wrap {padding:1rem 0 0}
+/* ---------------------------------------------------------- link icons */
+h5.h5Lk {line-height:2rem;margin-bottom:0.25rem}
+span.AI {padding:0;margin:0 1rem 0 0;display:inline-block;float:left;height:2rem;background-image:url(../img/app-icons-sprite.png);background-position:0 0}
+h5.h5Lk > a:hover, h5.h5Lk > a:focus {color:#6B8B9E}
+a > span#HRTINT {background-position:-4rem;width:2rem}
+a:hover > span#HRTINT, a:focus > span#HRTINT {background-position:-6rem}
+a > span#MOXIE {background-position:-37.75rem;width:2.4375rem}
+a:hover > span#MOXIE, a:focus > span#MOXIE {background-position:-40.1875rem}
+/* ---------------------------------------------------------- jQuery UI */
+/* ---------------------------------------------------------- sortable */
+ul#sortable {margin:0;list-style-type:none;padding:0;width:auto;text-align:center}
+#sortable li {margin:0 0 0.5rem;padding:0.5rem 0.5rem 0.5rem 1.625rem;width:auto;height:auto;max-height:7.5rem;line-height:100%;border:1px solid #6B8B9E;display:block;background:#E2ECF0 url(../img/ord-li.png) 0.75rem 50% no-repeat}
+#sortable li img {max-height:6.375rem;line-height:100%;margin:0 auto}
+/* ---------------------------------------------------------- multi select */
+button.ui-multiselect {padding:0.5rem;padding-right:0;text-align:left;margin:0 0 1rem;max-width:470px}
+.ui-multiselect span.ui-icon {float:right}
+.ui-multiselect-single .ui-multiselect-checkboxes input {position:absolute !important;top:auto !important;left:-9999px}
+.ui-multiselect-single .ui-multiselect-checkboxes label {padding:5px !important}
+.ui-multiselect-header {margin-bottom:8px;padding:3px 0 3px 4px}
+.ui-multiselect-header ul li {float:left;padding:0 10px 0 0}
+.ui-multiselect-header a {text-decoration:none}
+.ui-multiselect-header a:hover {text-decoration:underline}
+.ui-multiselect-header span.ui-icon {float:left}
+.ui-multiselect-header li.ui-multiselect-close {float:right;text-align:right;padding-right:0}
+.ui-multiselect-menu {display:none;padding:3px;position:absolute;z-index:10000;text-align:left}
+.ui-multiselect-checkboxes {position:relative /* fixes bug in IE6/7 */;overflow-y:auto}
+.ui-multiselect-checkboxes label {cursor:default;display:block;border:1px solid transparent;padding:3px 1px;width:99%}
+.ui-multiselect-checkboxes label input {position:relative;top:1px}
+.ui-multiselect-checkboxes li {clear:both;font:100% "Helvetica Neue", Arial, Helvetica, sans-serif;padding-right:3px}
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label {font-weight:900;border-bottom:1px solid;width:99%}
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a {display:block;padding:3px;margin:1px 0;text-decoration:none}
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label {border:none}
+.ui-multiselect-checkboxes li span {margin-left:10px}
+/* ---------------------------------------------------------- icons and button icons */
+span.icons {background-image:url(../img/icons-sprite.png);background-position:0 0;background-color:transparent !important;background-repeat:no-repeat;display:inline-block;margin-left:0.25rem}
+span.ra.icons, span.lap.icons, span.ldp.icons, span.ln.icons, span.le.icons, span.ulk.icons, span.ra.icons, span.ag.icons, span.loc.icons, span.cart.icons, span.pen.icons, span.brush.icons, span.gallery.icons, span.media.icons {width:1.125rem;height:1.125rem}
+span.ad.icons, span.rt.icons, span.dl.icons, span.ord.icons, span.ta.icons, span.ha.icons, span.ed.icons, span.sb.icons, span.lck.icons, span.ulck.icons, span.addi.icons, span.pr.icons, span.galleryad.icons {height:0.875rem;margin-top:0.0625rem}
+span.db.icons {width:1.375rem;height:1.375rem}																					/* dashboard */
+span.ra.icons {background-position:-5.75rem 0}																						/* recent activity */
+span.lap.icons {width:0.9375rem;background-position:-1.375rem 0}												/* latest active pages */
+span.ldp.icons {width:1.375rem;background-position:-2.3125rem 0}												/* latest draft pages */
+span.ln.icons {width:1.0625rem;background-position:-3.6875rem 0}											/* latest news */
+span.le.icons {width:1rem;background-position:-4.75rem 0}																/* latest events */
+span.ulk.icons {background-position:-6.875rem 0}																					/* useful links */
+span.ad.icons {width:0.875rem;background-position:-9.0625rem 0}												/* add button icon */
+span.rt.icons {width:1.0625rem;background-position:-8rem 0.0625rem}										/* return button icon */
+span.dl.icons {width:0.625rem;background-position:-9.9375rem 0}												/* delete button icon */
+span.ord.icons {width:1.25rem;background-position:-10.5625rem 0}											/* order button icon */
+span.ta.icons {width:0.9375rem;background-position:-11.8125rem 0}											/* teaching assistants button icon */
+span.ha.icons {width:1.1875rem;background-position:-12.75rem 0}												/* hierarchy button icon */
+span.ed.icons {width:0.875rem;background-position:-13.9375rem 0}											/* edit button icon */
+span.sb.icons {width:0.6875rem;background-position:-16.3125rem 0}											/* submit button icon */
+span.led.icons {height:0.75rem;width:0.75rem;background-position:-14.8125rem 0}			/* list edit button icon */
+span.lck.icons {width:0.625rem;background-position:-17.625rem 0}												/* locked icon */
+span.ulck.icons {width:0.625rem;background-position:-17rem 0.125rem}									/* unlocked icon */
+span.addi.icons {width:0.875rem;background-position:-18.25rem 0;float:left;margin:0.3125rem 0.675rem 0 0}		/* add icon */
+span.ag.icons {width:1.25rem;background-position:-20rem 0}															/* agents icon */
+span.loc.icons {width:0.5625rem;background-position:-21.25rem 0}												/* location icon */
+span.pr.icons {width:0.9375rem;background-position:-21.8125rem 0}											/* print icon */
+span.featb.icons {width:0.6875rem;height:0.6875rem;background-position:-22.75rem 0}	/* featured icon */
+span.cart.icons {width:1.25rem;background-position:-23.4375rem 0}											/* cart icon */
+span.featsub.icons {width:0.6875rem;height:0.6875rem;background-position:-24.6875rem 0}	/* sub-menu icon */
+span.pen.icons {background-position:-25.375rem 0}																				/* pencil icon */
+span.brush.icons {width:1.25rem;background-position:-26.5rem 0}												/* brush icon */
+span.gallery.icons {width:1.375rem;background-position:-27.75rem 0}										/* gallery icon */
+span.galleryad.icons {width:1.0625rem;background-position:-29.125rem 0}								/* gallery add icon */
+span.media.icons {width:1.875rem;background-position:-30.1875rem 0}									/* media icon */
+/* hover states */
+a:hover span.led.icons {background-position:-15.5625rem 0}															/* list edit hover button icon */
+a:hover span.addi.icons {background-position:-19.125rem 0} 															/* unlocked icon */
+.button span.ulck.icons {top:0}		
+table span.icons {margin:0}																																/* panel unlocked icon */
+/* ---------------------------------------------------------- foot */
+#FT {padding:1.25rem 0;margin-top:1rem;margin-bottom:1.25rem;background:#93ABB8}
+#FT p {margin-bottom:0.5rem;font-size:85%;line-height:160%}
+#FT a:hover, #FT a:focus {color:#B2478E}
+#FT p.last {margin-bottom:0}
+#FT h6 {font-size:100%;color:#253640}
+#appsf p {color:#253640;text-align:right}
+#FT h1, #FT h2, #FT h3, #FT h4, #FT h5, #FT h6 {line-height:120%;font-weight:700;letter-spacing:0;margin:0.25rem 0 0.25rem 0}
+/* ---------------------------------------------------------- steps */
+#STEPS {padding:0}
+.row.row.cmspanel {margin:0.5rem 0 1.25rem;padding:0.9375em 0;background:#253640}
+.cmspanel h3, .cmspanel p {text-align:center;color:#FEFEFE;line-height:100%}
+.cmspanel h3 {margin:0 0 0.75rem}
+.cmspanel p {margin:0.75rem 0 0;color:#6B8B9E}
+/*---------------------------------------------------------- wds links */
+#WDS {margin-top:0;padding-bottom:1rem}
+#WDS p, #WDS a {line-height:1rem;font-weight:700;color:#6B8B9E}
+#WDS p {height:1.125rem;font-size:75%;margin:0}
+#WDS a {font-size:100%}
+#WDS a #wdslogo {width:1.125rem;height:1.125rem;background:transparent url(../img/wds-logo.png) no-repeat left;margin:0 0.5rem 0 0;display:inline-block;position:relative;top:-2px;vertical-align:text-top}
+#WDS a:hover, #WDS a:focus {color:#B2478E}
+#WDS a:hover #wdslogo {background:transparent url(../img/wds-logo.png) no-repeat right}
+/*---------------------------------------------------------- rulers */
+hr.bloghr {margin:2rem 0 1.25rem}
+hr.lhr {margin:0.5rem 0}
+hr.rhr {margin:0.75rem 0}
+hr.hrtp {margin:1.25rem 0 0.125rem}
+hr.hrbt {margin:0 0 1.25rem}
+hr.hrtp, hr.hrbt {border-bottom:#5E7076 dotted 1px}
+
+/* ++++++++++++++++++++++++++++ MEDIA QUERIES ++++++++++++++++++++++++++++ */
+/*------------------------------------------- mobile to medium screens (1024px) */
+@media only screen and (max-width: 64em) {
+.title-bar {padding-left:0.5rem}
+.title-bar-title {font-size:1.25rem}
+.top-bar ul li > a {padding:0 0.625rem}
+.top-bar-right ul li > a:hover::after, .top-bar-right ul li > a:focus::after {border-color:transparent transparent transparent #FEFEFE}
+.top-bar-right ul li > a:hover::before, .top-bar-right ul li > a:focus::before {border-color:transparent #FEFEFE transparent transparent}
+.reveal {top:0 !important;height:auto;max-height:100vh}
+fieldset {padding:0.5rem 0.25rem}
+fieldset legend {margin:0 0 0 0.625rem}
+}
+/* ---------------------------------------------------------- mobile styles (max-width 640px) */
+@media only screen and (max-width: 40em) {
+.callout, .reveal {-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
+/*---------------------------------------------------------- header */
+#log p {margin:0 0 1rem;font-size:85%;text-align:left;color:#6B8B9E}
+/*---------------------------------------------------------- navigation */
+.top-bar ul li > a {font-size:1.125rem}
+/* ---------------------------------------------------------- foot */
+#wdsf p.last {margin-bottom:0.75rem}
+#appsf p {color:#253640;text-align:left}
+#WDS {padding-bottom:01.5rem}
+.button {width:100%}
+.callout .button {margin:0.75rem 0 0}
+form .button {margin:0 0 0.5rem}
+.panel .button {margin:0.75rem 0 0}
+#LogoFS img {margin-bottom:1rem}
+#toTop {bottom:6.25rem}
+/* ---------------------------------------------------------- page listings, switches & message center */
+.listimg {display:none;visibility:hidden}
+/* ---------------------------------------------------------- jQuery UI */
+#sortable li {padding:0.5rem 0.5rem 0.5rem 2.25rem}
+img.ImgThb {max-height:14rem;margin:0.5rem 0}
+}
+
+/* ---------------------------------------------------------- Smartphones (landscape) ----------- */
+@media only screen and (min-width: 20.0625em) and (max-width: 47.9375em) {
+
+}
+
+/* ---------------------------------------------------------- Smartphones (portrait) ----------- */
+@media only screen and (max-width: 20em) {
+
+}
+
+/* ---------------------------------------------------------- iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) {
+	
+}
+
+/* ---------------------------------------------------------- iPads (landscape) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) and (orientation: landscape) {
+	
+}
+
+/* ---------------------------------------------------------- iPads (portrait) ----------- */
+@media only screen and (min-device-width: 48em) and (max-device-width: 64em) and (orientation: portrait) {
+	
+}
+
+/*---------------------------------------------------------- medium screens (641px) */
+@media only screen and (min-width: 40.0625em) {
+/*---------------------------------------------------------- header */
+.columns.colright {text-align:right}
+.columns.addlnks {padding-left:0.9375rem;padding-right:0}
+a.AddNav {margin-top:0.625rem;display:inline-block}
+/*---------------------------------------------------------- navigation */
+.top-bar ul.is-dropdown-submenu li > a {height:2.375rem;line-height:2.375rem}
+.top-bar ul li.lastli {padding-right:0.9375rem}
+.no-js .top-bar {display:block}
+.no-js .title-bar {display:none}
+ /*---------------------------------------------------------- login */
+#RF {margin-top:1rem}
+/* ---------------------------------------------------------- foot */
+#log p {margin:2.125rem 0 0rem;font-size:85%;text-align:right;color:#6B8B9E}
+#appsf span {color:#079BDA}
+button, .button {margin:0 0.5rem 1rem 0}
+.cmspanel  .button {margin:0}
+.panel button, .panel .button {margin:0 0.5rem 0 0.5rem}
+h1.h1sp {margin-top:1.5rem}
+/* ---------------------------------------------------------- agent text */
+.ABN strong, .ALOC strong, .ACONT strong, .AMAP strong {width:100px;display:inline-block}
+/* ---------------------------------------------------------- payment text */
+.PPTxt strong {width:120px;display:inline-block}
+/* ---------------------------------------------------------- page listings, switches & message center */
+th.nmmw, td.nmmw, .nmmw {width:11.5rem;max-width:11.5rem}
+th.schmw, td.schmw, .schmw {width:5rem;max-width:5rem}
+fieldset legend {padding:0 0.8125rem}
+form#BanForm img {margin-top:2rem;max-height:12rem}
+}
+/*---------------------------------------------------------- medium only (min-width 1025px and max-width 1440px) */
+@media only screen and (min-width: 40.0625em) and (max-width: 61.9375em) {
+h1.nomrg {margin-bottom:0}
+.addlnks {margin-bottom:1.25rem}
+}
+/*---------------------------------------------------------- large screens (min-width 1025px and max-width 1440px) */
+@media only screen and (min-width: 62em) {
+.dropdown.menu > li.is-dropdown-submenu-parent > a {height:2.8125rem;line-height:2.8125rem}
+/*---------------------------------------------------------- rounded corners */
+.cmspanel {-webkit-border-radius:0.25rem;-moz-border-radius:0.25rem;border-radius:0.25rem}
+/*---------------------------------------------------------- header */
+#log p {margin:2.5625rem 0 0rem;font-size:85%;text-align:right;color:#6B8B9E}
+/* ---------------------------------------------------------- main navigation links */
+fieldset legend {padding:0 0.5rem}
+.columns.swcol {margin-top:2rem}
+}
+
+
+/*---------------------------------------------------------- xlarge screens (min-width 1441px and max-width 1920px) */
+@media only screen and (min-width: 90.063em) {
+	
+}
+
+/*---------------------------------------------------------- xxlarge screens (min-width 1921px) */
+@media only screen and (min-width: 120.063em) {
+	
+}
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/

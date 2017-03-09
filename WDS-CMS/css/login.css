@@ -1,0 +1,15 @@
+/* -----------------------------------------------
+
+WOW Design Solutions
+Author: Glynn Williams
+Created: June 2015
+
+----------------------------- */
+
+/* COLOURS:
+Dark Grey: #253640 | Mid Grey: #6B8B9E | Light Blue/Grey: #A2C2D0 | Very Light Grey: #E2ECF0 | Blue: #079BDA | Light Blue: #83CDEC | Purple: #B2478E | Green: #6CC325
+*/
+/* ++++++++++++++++++++++++++++ FOUNDATION OVERRIDES ++++++++++++++++++++++++++++ */
+.switch-active {left:9%}
+.switch-inactive {right:14%}
+.callout .button {margin:0 0 0.75rem}
