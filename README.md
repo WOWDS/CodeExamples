@@ -10,14 +10,10 @@ I've integrated TinyMCE and MoxieManager and have used this for the login (https
 
 © Copyright Glynn Williams 2017 - excluding the following folders...
 
-login-lib
-js
-TinyMCE
+login-lib > js > TinyMCE
 
 ...and following files...
 
-foundation.min.css
-jquery-ui.min.css
-tagmanager.css
+foundation.min.css > jquery-ui.min.css > tagmanager.css
 
 Thank you.
